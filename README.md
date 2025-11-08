@@ -1,4 +1,3 @@
-````markdown
 <div align="center">
   <img src="docs/branding-logos.png" alt="BrineBook Branding" width="400">
 </div>
@@ -6,10 +5,6 @@
 <div align="center">
   <img src="frontend/public/images/logo-main.png" alt="BrineBook Main Logo" width="200">
 </div>
-
-# BrineBook
-
-**Your AI-powered, restaurant-style recipe vault**
 
 ---
 
@@ -168,4 +163,8 @@ Once running, visit http://localhost:8000/docs for interactive API documentation
 ## License
 
 MIT
-````
+
+# BrineBook
+
+**Your AI-powered, restaurant-style recipe vault**
+MIT
