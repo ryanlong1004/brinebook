@@ -3,6 +3,46 @@
   <img src="docs/branding-logos.png" alt="BrineBook Branding" width="400">
 </div>
 
+<div align="center">
+  <img src="frontend/public/images/logo-main.png" alt="BrineBook Main Logo" width="200">
+</div>
+
+# BrineBook
+
+**Your AI-powered, restaurant-style recipe vault**
+
+---
+
+## Branding & Logo
+
+BrineBook uses a professional culinary theme with three logo variations:
+
+- ![Main Logo](frontend/public/images/logo-main.png) (app header, navigation)
+- ![Variant Logo](frontend/public/images/logo-variant.png) (docs, marketing)
+- ![Alt Logo](frontend/public/images/logo-alt.png) (icons, social)
+
+See [BRANDING.md](docs/BRANDING.md) for full guidelines, logo usage, and color palette.
+
+---
+
+## Developer Documentation
+
+BrineBook is designed for easy contribution. See [DEVELOPMENT.md](docs/DEVELOPMENT.md) for:
+
+- Project structure and file layout
+- How to add backend API endpoints (FastAPI)
+- Database migrations (Alembic)
+- LLM integration and prompt design
+- Frontend component/view patterns (Vue 3, Pinia)
+- State management, routing, and styling (Tailwind)
+- Testing (pytest, npm run test)
+- Deployment and environment setup
+- Troubleshooting common issues
+- Code style and best practices
+- Contribution workflow (feature branches, PRs, review)
+
+API details: [API.md](docs/API.md)
+
 # BrineBook
 
 **Your AI-powered, restaurant-style recipe vault**
@@ -10,6 +50,8 @@
 BrineBook lets you generate, store, rate, tag, and rediscover restaurant-quality recipes—especially ones sourced from LLMs—without losing them in random chats.
 
 ## Features
+
+---
 
 ## Quick Start
 
@@ -62,6 +104,8 @@ npm install
 npm run dev
 ```
 
+---
+
 ## Project Structure
 
 ```
@@ -86,6 +130,8 @@ brinebook/
 └── docker-compose.yml
 ```
 
+---
+
 ## Core Workflows
 
 ### 1. Generate Recipe from AI
@@ -107,11 +153,17 @@ brinebook/
 - `/revise <recipe>` - Send to AI for improvements
 - `/menu "Italian night for 20"` - Build menu from your recipes
 
+---
+
 ## API Documentation
 
 Once running, visit http://localhost:8000/docs for interactive API documentation.
 
+---
+
 ## Tech Stack
+
+---
 
 ## License
 
