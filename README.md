@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="docs/branding-logos.png" alt="BrineBook Branding" width="300">
+  <img src="docs/logo-main.png" alt="BrineBook Main Logo" width="200">
+  <img src="docs/logo-variant.png" alt="BrineBook Variant Logo" width="200">
+  <img src="docs/logo-alt.png" alt="BrineBook Alt Logo" width="200">
 </div>
 
 <div align="center">
@@ -10,9 +12,14 @@
 
 ## Branding & Logo
 
-BrineBook uses a professional culinary theme with a single main logo:
 
-- ![Main Logo](docs/branding-logos.png) (app header, navigation)
+BrineBook uses a professional culinary theme with three individual logos (all with transparent backgrounds):
+
+- ![Main Logo](docs/logo-main.png) (app header, navigation)
+- ![Variant Logo](docs/logo-variant.png) (docs, marketing)
+- ![Alt Logo](docs/logo-alt.png) (icons, social)
+
+All logos are PNGs with transparent backgrounds for best appearance on dark/light themes.
 
 See [BRANDING.md](docs/BRANDING.md) for full guidelines, logo usage, and color palette.
 
