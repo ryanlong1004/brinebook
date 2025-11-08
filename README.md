@@ -1,8 +1,7 @@
-<div align="center">
-  <img src="docs/logo-main.png" alt="BrineBook Main Logo" width="200">
-  <img src="docs/logo-variant.png" alt="BrineBook Variant Logo" width="200">
-  <img src="docs/logo-alt.png" alt="BrineBook Alt Logo" width="200">
-</div>
+
+![Main Logo](docs/logo-main.png)
+![Variant Logo](docs/logo-variant.png)
+![Alt Logo](docs/logo-alt.png)
 
 <div align="center">
   <img src="frontend/public/images/logo-main.png" alt="BrineBook Main Logo" width="200">
