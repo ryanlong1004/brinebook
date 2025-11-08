@@ -11,20 +11,9 @@ BrineBook lets you generate, store, rate, tag, and rediscover restaurant-quality
 
 ## Features
 
-- 🤖 **AI-Powered Recipe Generation**: Use ChatGPT to generate restaurant-quality recipes with structured prompts
-- 🔍 **Universal Search**: Single search bar that searches both your saved recipes and can generate new ones
-- 🏷️ **Smart Tagging**: Organize recipes with cuisine, protein, style, difficulty, equipment, and custom tags
-- 📸 **Photo Gallery**: Attach multiple photos to track how your dishes turn out
-- ⭐ **Rating System**: Score recipes and add notes to refine them over time
-- 🎯 **Command Palette**: Keyboard shortcuts for power users (`Ctrl/Cmd+K`)
-
 ## Quick Start
 
 ### Prerequisites
-
-- Docker & Docker Compose
-- Node.js 18+ (for local frontend development)
-- Python 3.11+ (for local backend development)
 
 ### Environment Setup
 
@@ -47,10 +36,6 @@ docker-compose up -d
 ```
 
 The application will be available at:
-
-- Frontend: http://localhost:5173
-- Backend API: http://localhost:8000
-- API Docs: http://localhost:8000/docs
 
 ### Local Development
 
@@ -112,42 +97,21 @@ brinebook/
 
 ### 2. Save & Organize
 
-- Add tags for cuisine, protein, style, difficulty, equipment
-- Label recipes by occasion and status
-- Original prompts are stored for traceability
-
 ### 3. Add Photos
-
-- Upload multiple photos per recipe
-- Set a hero image
-- Add captions to track versions
 
 ### 4. Rate & Refine
 
-- Rate recipes 1-5 stars
-- Add notes: "Too salty", "Perfect for service"
-- Use ratings to sort and filter
-
 ### 5. Universal Search
 
-- Natural language: `tuscan chicken`, `keeper recipes`, `smoker pork`
-- Commands:
-  - `/new "restaurant style chicken francaise"` - Generate new recipe
-  - `/revise <recipe>` - Send to AI for improvements
-  - `/menu "Italian night for 20"` - Build menu from your recipes
+- `/new "restaurant style chicken francaise"` - Generate new recipe
+- `/revise <recipe>` - Send to AI for improvements
+- `/menu "Italian night for 20"` - Build menu from your recipes
 
 ## API Documentation
 
 Once running, visit http://localhost:8000/docs for interactive API documentation.
 
 ## Tech Stack
-
-- **Frontend**: Vue 3, Vite, Pinia, Vue Router, TailwindCSS
-- **Backend**: FastAPI, SQLAlchemy, Alembic
-- **Database**: PostgreSQL with full-text search
-- **Storage**: S3-compatible (AWS S3 or Wasabi)
-- **AI**: OpenAI API with structured prompts
-- **Auth**: JWT tokens
 
 ## License
 
